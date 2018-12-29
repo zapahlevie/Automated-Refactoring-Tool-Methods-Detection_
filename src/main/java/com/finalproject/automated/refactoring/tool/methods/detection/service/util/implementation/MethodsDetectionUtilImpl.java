@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class MethodsDetectionUtilImpl implements MethodsDetectionUtil {
 
-    private static final String KEY_DIVIDER = "/";
+    private static final String KEY_DIVIDER = "\\";
 
     @Override
     public String getMethodKey(@NonNull FileModel fileModel) {
