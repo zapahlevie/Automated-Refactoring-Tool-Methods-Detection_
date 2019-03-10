@@ -31,7 +31,7 @@ public class MethodsDetectionUtilImplTest {
     @Test
     public void getMethodKey_success() {
         String key = methodsDetectionUtil.getMethodKey(fileModel);
-        String expectedKey = "path/Filename.java";
+        String expectedKey = "path\\Filename.java";
 
         assertEquals(expectedKey, key);
     }
